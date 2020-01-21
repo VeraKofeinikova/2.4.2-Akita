@@ -1,0 +1,225 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59330093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitialSetupHooks.setDriverProxy()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: Класс ru.netology.web.page.DashboardPagePaymentForm должен наследоваться от AkitaPage\n\tat ru.alfabank.alfatest.cucumber.api.AkitaEnvironment.lambda$initPages$0(AkitaEnvironment.java:65)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1553)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\n\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)\n\tat ru.alfabank.alfatest.cucumber.api.AkitaEnvironment.initPages(AkitaEnvironment.java:68)\n\tat ru.alfabank.alfatest.cucumber.api.AkitaEnvironment.\u003cinit\u003e(AkitaEnvironment.java:45)\n\tat ru.alfabank.steps.InitialSetupHooks.setScenario(InitialSetupHooks.java:53)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)\n\tat cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)\n\tat cucumber.api.TestStep.run(TestStep.java:83)\n\tat cucumber.api.TestCase.run(TestCase.java:58)\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)\n\tat org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)\n\tat com.sun.proxy.$Proxy2.processTestClass(Unknown Source)\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+              "duration": 6417435154,
+              "status": "failed"
+            },
+            "match": {
+              "location": "InitialSetupHooks.setScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 446027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitialSetupHooks.setEnvironmentToTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Вход в личный кабинет",
+        "description": "",
+        "id": "вход;вход-в-личный-кабинет;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8843990,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitialSetupHooks.takeScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 51647,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitialSetupHooks.closeWebDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Структура сценария",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "совершен переход на страницу \"Страница входа\" по ссылке \"ibankLoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Страница входа",
+                  "offset": 30
+                },
+                {
+                  "val": "ibankLoginPage",
+                  "offset": 57
+                }
+              ],
+              "location": "WebPageInteractionSteps.goToSelectedPageByLink(String,String)"
+            },
+            "keyword": "Пусть "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "в поле \"Логин\" введено значение \"vasya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Логин",
+                  "offset": 8
+                },
+                {
+                  "val": "vasya",
+                  "offset": 33
+                }
+              ],
+              "location": "InputInteractionSteps.setFieldValue(String,String)"
+            },
+            "keyword": "Когда "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "в поле \"Пароль\" введено значение \"qwerty123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Пароль",
+                  "offset": 8
+                },
+                {
+                  "val": "qwerty123",
+                  "offset": 34
+                }
+              ],
+              "location": "InputInteractionSteps.setFieldValue(String,String)"
+            },
+            "keyword": "И "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "выполнено нажатие на кнопку \"Продолжить\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Продолжить",
+                  "offset": 29
+                }
+              ],
+              "location": "ElementsInteractionSteps.clickOnElement(String)"
+            },
+            "keyword": "И "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "страница \"Подтверждение входа\" загрузилась",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Подтверждение входа",
+                  "offset": 10
+                }
+              ],
+              "location": "WebPageVerificationSteps.loadingPage(String)"
+            },
+            "keyword": "Тогда "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "в поле \"Код\" введено значение \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Код",
+                  "offset": 8
+                },
+                {
+                  "val": "12345",
+                  "offset": 31
+                }
+              ],
+              "location": "InputInteractionSteps.setFieldValue(String,String)"
+            },
+            "keyword": "Когда "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "выполнено нажатие на кнопку \"Продолжить\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Продолжить",
+                  "offset": 29
+                }
+              ],
+              "location": "ElementsInteractionSteps.clickOnElement(String)"
+            },
+            "keyword": "И "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "страница \"Дашбоард\" загрузилась",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Дашбоард",
+                  "offset": 10
+                }
+              ],
+              "location": "WebPageVerificationSteps.loadingPage(String)"
+            },
+            "keyword": "Тогда "
+          }
+        ]
+      }
+    ],
+    "name": "Вход",
+    "description": "",
+    "id": "вход",
+    "keyword": "Функциональность",
+    "uri": "/Users/vera/Documents/HOMEWORKSAUTO/6-2/2-4-2-Akita/build/resources/test/features/Вход.feature",
+    "tags": []
+  }
+]
